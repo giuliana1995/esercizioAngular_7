@@ -1,0 +1,16 @@
+<div [ngClass]="{
+    'blue': user.role === role.STAFF,
+    'light-blue': user.role === role.MANAGER,
+    'grey': user.role === role.ADMIN
+    }">
+    
+    <p>{{ index + 1 }}</p>
+    <img [src]="user.profilePhotoUrl" alt="">
+    <h1>{{ user.name }}</h1>
+    <h2>{{ user.age }}</h2>
+    <h3>{{ user.address.city}}</h3>
+
+    <button (click)="removeItem()"> Delete </button>
+
+
+</div>

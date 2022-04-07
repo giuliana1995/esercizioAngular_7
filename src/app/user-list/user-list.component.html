@@ -1,0 +1,11 @@
+<div *ngIf="listUsers.length > 0; else Empty">
+    <app-user-single 
+    *ngFor="let user of listUsers; index as i"
+    [index]="i"
+    [user]="user"
+    (remove)="removeElement($event)">
+    </app-user-single>
+
+</div>
+
+<ng-template #Empty> Non sono presenti utenti </ng-template>

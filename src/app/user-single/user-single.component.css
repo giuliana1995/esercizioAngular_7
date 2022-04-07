@@ -1,0 +1,39 @@
+h1 {
+    display: inline;
+    font-size: 12px;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+    display: inline;
+  }
+  
+  p {
+    display: inline;
+  }
+
+  .blue {
+    border: 2px solid blue;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+
+  .light-blue {
+    border: 2px solid lightblue;
+    width: 420px;
+    margin-bottom: 20px;
+  }
+
+  .grey {
+    border: 2px solid gray;
+    width:400px;
+    margin-bottom: 20px;
+  }
+  
+  h1, h2, h3 {
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+  }
+
